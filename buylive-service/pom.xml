@@ -9,8 +9,8 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   
-  <artifactId>buylive-persist</artifactId>
-  <name>buylive-persist</name>
+  <artifactId>buylive-service</artifactId>
+  <name>buylive-service</name>
   <url>http://maven.apache.org</url>
   
   <properties>
@@ -25,12 +25,12 @@
 	    <version>1.0.0-SNAPSHOT</version>
 	</dependency>
 	
-	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-mongodb -->
 	<dependency>
-	    <groupId>org.springframework.boot</groupId>
-	    <artifactId>spring-boot-starter-data-mongodb</artifactId>
-	</dependency>		
-	  
+	    <groupId>com.buylive</groupId>
+	    <artifactId>buylive-persist</artifactId>
+	    <version>1.0.0-SNAPSHOT</version>
+	</dependency>	
+    
   </dependencies>
   
 </project>
