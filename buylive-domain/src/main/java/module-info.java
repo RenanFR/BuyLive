@@ -1,8 +1,8 @@
-module org.buylive.domain {
+module com.buylive.domain {
 	
 	exports com.buylive.domain;
 	requires lombok;
-	requires java.persistence;
+	requires transitive java.persistence;
 	requires jackson.annotations;
 	
 }

@@ -18,7 +18,8 @@
   
   <modules>
     <module>buylive-domain</module>
-  </modules>
+    <module>buylive-persist</module>
+</modules>
   
 	<dependencyManagement>
 	
